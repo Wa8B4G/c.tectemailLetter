@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay with PayPal</title>
+    
+    <link rel="stylesheet" href="./style/trustWallet.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="brand">
+                <h2>ZipaTool</h2>
+            </div>
+          <img src="./images/logo.png" alt="[Your Logo]">
+        </div>
+      <div class="header">
+        <h2>Trust Wallet Payment</h2>
+      </div>
+      <div class="body">
+        <hr>
+        <p>Hello [Customer Name],</p>
+        <p>To complete your payment of <strong>50 USDT (BEP20)</strong>, please send the amount to the wallet address below using Trust Wallet or any compatible crypto wallet.</p>
+        <hr>
+        <div class="wallet-box">
+          <p><strong>Wallet Address:</strong><br>
+          0xAbC123456789DefABC123456789DEfABC12345678</p>
+          <p><strong>Network:</strong> Binance Smart Chain (BEP20)</p>
+        </div>
+        <div class="qr">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=0xAbC123456789DefABC123456789DEfABC12345678" alt="[QR Code for Wallet]" />
+          <p>Scan to pay</p>
+        </div>
+        <p style="text-align: center;">
+          <a href="trust://send?address=0xAbC123456789DefABC123456789DEfABC12345678&asset=USDT&amount=50" class="button">
+            Open in Trust Wallet
+          </a>
+        </p>
+        <p>After payment, please send a screenshot of the transaction to <a href="mailto:support@zipaTool.com">support@ZipaTool.com</a>.</p>
+      </div>
+      <div class="footer">
+        &copy; 2025 ZipaTool. All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>
