@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>venmo</title>
+    <link rel="stylesheet" href="./mystyle/venmo.css">
+</head>
+<body>
+ 
+  <div class="container">
+    <div class="logo">
+        <div class="brand">
+            <h2>ZipaTool</h2>
+        </div>
+      <img src="./images/logo.png" alt="[Your Logo]">
+    </div>
+    <div class="header">
+      <h2>Venmo Payment Request</h2>
+    </div>
+    <div class="body">
+      <p>Hello [Customer Name],</p>
+      <p>To complete your payment of <strong>$100.00</strong>, please use the Venmo link or scan the QR code below.</p>
+      <div class="payment-box">
+        <p><strong>Venmo Username:</strong> @your-venmo-username</p>
+        <p><strong>Amount:</strong> $100.00</p>
+        <p><strong>Note:</strong> Invoice #12345</p>
+      </div>
+      <div class="qr">
+        <img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=https://venmo.com/your-venmo-username" alt="Venmo QR Code" />
+        <p>Scan to pay with Venmo</p>
+      </div>
+      <p style="text-align: center;">
+        <a href="https://venmo.com/your-venmo-username?txn=pay&amount=100.00&note=Invoice%2012345" class="button">Pay with Venmo</a>
+      </p>
+      <p>If you need help, reply to this email or contact <a href="mailto:support@ZipaTool.com">support@ZipaTool.com</a>.</p>
+    </div>
+    <div class="footer">
+      &copy; 2025 Your Company. All rights reserved.
+    </div>
+  </div>
+
+</body>
+</html>
